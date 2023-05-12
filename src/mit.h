@@ -6,7 +6,9 @@
 EXTERN_C_BEGIN
 namespaceBegin(foxintango)
 
-struct mit_action {};
+struct mit_action_s {
+    
+};
 struct mit_toolchain_s {
     char* description;
     char* prefix;

@@ -17,6 +17,8 @@ public:
     mit_document(const URL& url);
     ~mit_document();
 public:
+    int load(const URL& url);
+public:
     int execute();
 };
 namespaceEnd
