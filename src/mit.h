@@ -1,6 +1,7 @@
 #ifndef _MIT_H_foxintango
 #define _MIT_H_foxintango
 
+#include <libelf/libelf.h>
 #include <libcpp/libcpp.h>
 
 EXTERN_C_BEGIN
